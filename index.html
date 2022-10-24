@@ -24,7 +24,7 @@
     <div class="container">
         <div class="text">
             <p class="text_1">꒰ঌおでかけ・あまおち໒꒱</p>
-            <p class="text_3">꒰ঌ遊び方໒꒱</p>
+            <p class="url-text2">꒰ঌ遊び方໒꒱</p>
             <div class="url-text2">1.おでかけをする。</div>
             <div class="url-text2">2.アプリを起動しカメラへのアクセスを許可する。</div>
             <div class="url-text2">3.カメラが起動するので、カメラ前にARマーカーをおく。</div>
@@ -33,7 +33,11 @@
             <div class="url-text2">　</div>
             <div class="url-text3" id="ToolNo2">꒰ঌおでかけする໒꒱</div>
             <div class="url-text2">　</div>
-            <p class="text_3">꒰ঌ天堕ノア໒꒱</p>
+            <div class="url-text2">꒰ঌマーカー・ダウンロード໒꒱</div>
+            <div class="url-text2"id="download1">マーカー1</div>
+            <div class="url-text2"id="download2">マーカー2</div>
+            <div class="url-text2"id="download3">マーカー3</div>
+            <p class="text_2">꒰ঌ天堕ノア໒꒱</p>
             <div class="url-text2"id="url-button">꒰ঌYoutube໒꒱</div>
             <div class="url-text2"id="url-button2">꒰ঌTwitter໒꒱</div>
             <div class="url-text2">　</div>
@@ -54,6 +58,15 @@
         };
         document.getElementById("ToolNo2").onclick = function () {
             window.location.href = 'https://AR.amaochi.net/ar.html';
+        };
+        document.getElementById("download1").onclick = function () {
+            window.location.href = 'https://AR.amaochi.net/data/marker/image/pattern-amaochi_AR-T1.png';
+        };
+        document.getElementById("download2").onclick = function () {
+            window.location.href = 'https://AR.amaochi.net/data/marker/image/pattern-amaochi_AR-T2.png';
+        };
+        document.getElementById("download3").onclick = function () {
+            window.location.href = 'https://AR.amaochi.net/data/marker/image/pattern-amaochi_AR-T3.png';
         };
     </script>
 </body>
